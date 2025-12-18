@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+#themeToggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  font-size: 26px;
+  color: #2563EB;
+}
+
+
+
+body{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F4F6F8;
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.title {
+    text-align: center;
+    color: #2563EB ;
+    font-family: 'verdana',sans-serif;
+    font-size: 59pt;
+    margin: 30px;
+    margin-top: 100px;
+}
+
+
+.container{
+    background-color: #F4F6F8;
+    margin: auto;
+    width: 100%;
+    max-width:max-content ;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:30px 30px;
+    border-radius: 5px;
+
+}
+
+.tarefa{
+    background-color: #ffff;
+    width: 410px;
+    height: 50px;
+    color: grey;
+    
+    font: normal 17px 'poppins',sans-serif;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    box-shadow: 0 0 20px rgb(0,0,0,0.2);
+
+    border: 1px solid #cbd5e1;
+    outline: none;
+    transition: border 0.2s ease;
+    border-radius: 5px;
+}
+
+.tarefa:focus{
+    border: 2px solid #2563EB;
+}
+#botoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 410px;
+    
+}
+
+#btn{
+    background-color: #16A34A;
+    width: 150px;
+    height: 45px;
+    border: none;
+     border-radius: 5px;
+    font: normal 18px 'verdana';
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0 0 20px rgb(0,0,0,0.2);
+
+
+}
+
+#btn:hover{
+background-color: #15803D;
+}
+
+.remover{
+    background-color: #DC2626;
+    width: 150px;
+    height: 45px;
+    border: none;
+     border-radius: 5px;
+    font: normal 18px 'verdana';
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0 0 20px rgb(0,0,0,0.2);
+
+}
+
+.remover:hover{
+background-color: #B91C1C;
+}
+
+.armazenaLista{
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    border-radius: 20px;
+    padding: 30px;
+    
+}
+
+.item{
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 20px;
+  width: 350px;
+  text-decoration: none;
+  font-family: 'poppins' , sans-serif;
+  font-size: 18px;
+  color: #111827;
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #F8FAFC;
+   margin-bottom: 15px;
+ 
+   margin-top: 15px;
+  
+  
+}
+.item:hover{
+   
+   box-shadow: 0 0 20px rgb(0,0,0,0.2);
+   border-radius: 50px; 
+}
+
+
+.x{
+
+    color: #EF4444;
+    font-family: 'verdana';
+}
+
+.x:hover{
+    color: #DC2626;
+    
+}
+
+/* MODAL*/
+
+.hidden{
+    display: none;
+}
+
+#overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0,0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.modal{
+    background-color:#FFFFFF ;
+    padding: 20px;
+    border-radius: 12px;
+    width: 320px;
+    color:  #111827;
+    text-align: center;
+    box-shadow: 0 0 20px rgb(0,0,0,0.5);
+    border: 1px solid #E0E0E0;
+
+}
+.modal h2{
+    font-family: 'inter', sans-serif;
+    font-weight: 600;
+
+}
+
+#paragraf1{
+  padding: 10px;
+  font-weight: 400;
+  font: normal 17px 'inter',sana-serif;
+}
+
+#confirmarBtn{
+    width: 100px;
+    margin-top:15px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #D32F2F;
+    margin-right: 10px;
+    cursor: pointer;
+     font-family: 'inter',sans-serif;
+      box-shadow: 0 0 20px rgb(0,0,0,0.3);
+      font-weight: 600;
+}
+
+#confirmarBtn:hover{
+background-color:  #B71C1C;
+}
+
+#cancelarBtn{
+     width: 100px;
+    margin-top:15px;
+    height: 35px;
+    border-radius: 8px;
+    border: 1px solid #BDBDBD;
+    color: #333333;
+    background-color: #F5F5F5;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 17px;
+     box-shadow: 0 0 20px rgb(0,0,0,0.3);
+     font-weight: 500;
+}
+
+#cancelarBtn:hover{
+background-color:  #E0E0E0;
+color:#212121 ;
+}
+
+/* se o campo de adicionar tarefa está vazio*/
+
+.semTarefa{
+display: none;
+}
+
+#vazio{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0,0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+     font-family: 'inter', sans-serif;
+}
+#styleModla{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: 'inter', sans-serif;
+    width: 180px;
+    text-align: center;
+    box-shadow: 0 0 20px rgb(0,0,0,0.5);
+}
+
+
+
+/*modo escuro*/
+
+body.dark {
+  background-color: #0f172a;
+  color: #e5e7eb;
+}
+
+body.dark .container {
+  background-color:#0f172a;
+}
+
+body.dark .item {
+  background-color: #020617;
+  color: #e5e7eb;
+}
+body.dark .armazenaLista{
+    background-color: #020617;
+}
+body.dark .tarefa {
+  background-color: #020617;
+  color: #e5e7eb;
+  border-color: #334155;
+}
+
+body.dark .item{
+  border-top: 1px solid #222;
+  border-bottom: 1px solid #222;
+}
+body.dark .modal{
+    background-color:#222;
+    color:  #fff;
+    border: 1px solid #E0E0E0;
+
+}
+
+
+
+
+/* dispositos com pixel pequeno: celulares ect;*/
+
+@media(max-width: 410px) {
+
+
+    .title {
+    
+    margin:  0 auto;
+    font-size: 45pt;
+    text-align: center;
+    margin: 30px;
+    margin-top: 100px;
+    }
+
+    .container{
+        padding: 20px;
+    }
+
+    .tarefa{
+        width: 375px;
+    }
+    .btn{
+        width: 375px;
+    }
+
+    #botoes{
+        width: 375px;
+    }
+    .item{
+        width: 315px;
+    }
+
+}

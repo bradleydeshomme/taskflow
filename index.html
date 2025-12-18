@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow | To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button id="themeToggle" aria-label="Alternar tema">
+  🌙
+</button>
+
+    <header> 
+        <h1 class="title">TaskFlow</h1>
+         
+    </header>
+
+    <main class="container">
+
+     <input type="text" placeholder="Adicionar Tarefa..." id="tarefa" class="tarefa">
+      <div id="botoes">
+
+        <button id="btn">Adicionar</button>
+         <button id="remover">Excluir</button>
+
+
+      </div>
+    
+      
+        <ul id="armazenamento" class="armazenaLista" ></ul>
+      
+     
+
+     <div id="overlay" class="hidden">
+        <div class="modal">
+            <h2 id="titulo">Excluir todas as tarefas</h2>
+            <p id="paragraf1"></p>
+
+            <button id="confirmarBtn">Confirmar</button>
+            <button id="cancelarBtn">Cancelar</button>
+        </div>
+    </div>
+
+     <div id="vazio" class="semTarefa">
+       
+       <div id="styleModla">
+         <p id="*"></p>
+         <p id="#"></p>
+
+       </div>
+        </div>
+        
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
