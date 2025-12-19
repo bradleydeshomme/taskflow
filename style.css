@@ -323,7 +323,7 @@ body.dark .modal{
 
 /* dispositos com pixel pequeno: celulares ect;*/
 
-@media(max-width: 410px) {
+@media(max-width: 420px) {
 
 
     .title {
@@ -416,6 +416,38 @@ body.dark .modal{
         width: 280px;
     }
 }
+
+@media(max-width: 360px) {
+
+
+    .title {
+    
+    margin:  0 auto;
+    font-size: 45pt;
+    text-align: center;
+    margin: 30px;
+    margin-top: 100px;
+    }
+
+    .container{
+        padding: 20px;
+    }
+
+    .tarefa{
+        width: 320px;
+    }
+    .btn{
+        width: 320px;
+    }
+
+    #botoes{
+        width: 320px;
+    }
+    .item{
+        width: 260px;
+    }
+}
+
 
 
 
