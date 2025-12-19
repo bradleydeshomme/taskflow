@@ -354,3 +354,35 @@ body.dark .modal{
     }
 
 }
+
+@media(max-width: 480px) {
+
+
+    .title {
+    
+    margin:  0 auto;
+    font-size: 45pt;
+    text-align: center;
+    margin: 30px;
+    margin-top: 100px;
+    }
+
+    .container{
+        padding: 20px;
+    }
+
+    .tarefa{
+        width: 400px;
+    }
+    .btn{
+        width: 400px;
+    }
+
+    #botoes{
+        width: 400px;
+    }
+    .item{
+        width: 375px;
+    }
+}
+
