@@ -355,7 +355,7 @@ body.dark .modal{
 
 }
 
-@media(max-width: 580px) {
+@media(max-width: 360px) {
 
 
     .title {
@@ -372,17 +372,17 @@ body.dark .modal{
     }
 
     .tarefa{
-        width: 390px;
+        width: 320px;
     }
     .btn{
-        width: 390px;
+        width: 320px;
     }
 
     #botoes{
-        width: 390px;
+        width: 320px;
     }
     .item{
-        width: 330px;
+        width: 260px;
     }
 }
 
@@ -416,6 +416,7 @@ body.dark .modal{
         width: 280px;
     }
 }
+
 
 
 
