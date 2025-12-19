@@ -355,7 +355,7 @@ body.dark .modal{
 
 }
 
-@media(max-width: 480px) {
+@media(max-width: 580px) {
 
 
     .title {
@@ -416,6 +416,7 @@ body.dark .modal{
         width: 280px;
     }
 }
+
 
 
 
