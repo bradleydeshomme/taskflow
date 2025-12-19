@@ -372,17 +372,17 @@ body.dark .modal{
     }
 
     .tarefa{
-        width: 320px;
+        width: 300px;
     }
     .btn{
-        width: 320px;
+        width: 300px;
     }
 
     #botoes{
-        width: 320px;
+        width: 300px;
     }
     .item{
-        width: 260px;
+        width: 240px;
     }
 }
 
@@ -416,6 +416,7 @@ body.dark .modal{
         width: 280px;
     }
 }
+
 
 
 
