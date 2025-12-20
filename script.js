@@ -72,7 +72,7 @@ document.title = "TaskFlow | To Do List";
                 botaoX.style.cursor ="pointer"
                 botaoX.style.display = "flex"
     
-             }, 1000);
+             }, 2000);
               });
 
              item.addEventListener("touchend", () => {
@@ -100,7 +100,7 @@ document.title = "TaskFlow | To Do List";
            const agora = Date.now();
            const tempoEntreToques = agora - lastTap;
  
-          if (tempoEntreToques < 300 && tempoEntreToques > 0) {
+          if (tempoEntreToques < 600 && tempoEntreToques > 0) {
             tarefa.resolvida = !tarefa.resolvida
           }
 
@@ -404,5 +404,6 @@ themeToggle.addEventListener("click", () => {
     themeToggle.textContent = "🌙"
   }
 })
+
 
 
