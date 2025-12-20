@@ -314,7 +314,7 @@ body.dark .item{
 body.dark .modal{
     background-color:#222;
     color:  #fff;
-
+    border: 1px #222;
 }
 
 
@@ -446,6 +446,7 @@ body.dark .modal{
         width: 260px;
     }
 }
+
 
 
 
