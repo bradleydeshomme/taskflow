@@ -135,23 +135,7 @@ document.title = "TaskFlow | To Do List";
         }// FIM DA FUNÇÃO QUE ATUALIZA A LISTA
         
        
-   /* confirmarBtn.addEventListener('click', () => {
-
-    if(indiceParaExcluir !== null){
-        tarefas.splice(indiceParaExcluir, 1);
-        localStorage.setItem("tarefas", JSON.stringify(tarefas));
-        indiceParaExcluir = null;
-        AtualizarLista();
-    }
-
-    overlay.classList.add("hidden");
-    overlay.style.display = "none";
-
-    console.count("CONFIRMAR DISPAROU");
-
-
-    });
-   */
+   
 
         confirmarBtn.onclick = () => {
 
@@ -404,6 +388,7 @@ themeToggle.addEventListener("click", () => {
     themeToggle.textContent = "🌙"
   }
 })
+
 
 
 
