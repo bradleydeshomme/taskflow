@@ -286,12 +286,12 @@ display: none;
 /*modo escuro*/
 
 body.dark {
-  background-color: #0f172a;
+  background-color: #161616;
   color: #e5e7eb;
 }
 
 body.dark .container {
-  background-color:#0f172a;
+  background-color:#161616;
 }
 
 body.dark .item {
@@ -446,6 +446,7 @@ body.dark .modal{
         width: 260px;
     }
 }
+
 
 
 
