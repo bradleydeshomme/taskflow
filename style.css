@@ -295,7 +295,7 @@ body.dark .container {
 }
 
 body.dark .item {
-  background-color: #020617;
+  background-color: #222;
   color: #e5e7eb;
 }
 body.dark .armazenaLista{
@@ -308,8 +308,8 @@ body.dark .tarefa {
 }
 
 body.dark .item{
-  border-top: 1px solid #222;
-  border-bottom: 1px solid #222;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
 }
 body.dark .modal{
     background-color:#222;
@@ -446,6 +446,7 @@ body.dark .modal{
         width: 260px;
     }
 }
+
 
 
 
