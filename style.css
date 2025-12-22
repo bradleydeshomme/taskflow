@@ -299,7 +299,7 @@ body.dark .item {
   color: #e5e7eb;
 }
 body.dark .armazenaLista{
-    background-color: #020617;
+    background-color: #222;
 }
 body.dark .tarefa {
   background-color: #020617;
@@ -446,6 +446,7 @@ body.dark .modal{
         width: 260px;
     }
 }
+
 
 
 
